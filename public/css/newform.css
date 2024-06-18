@@ -1,0 +1,54 @@
+ /* Estilo para o container */
+ .form-container {
+  background-color: #1a237e; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin: auto; /* Centraliza o formulário */
+  min-width: 60%; /* Define a largura do formulário */
+  margin-top: 66px; /* Distância do topo */
+}
+
+/* Estilo para inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #4400ff; /* Cor da borda */
+  border-radius: 20px; /* Borda arredondada */
+  outline: none;
+  color: #4400ff; /* Cor do texto */
+  background-color: #f2f2f2; /* Cor de fundo */
+}
+
+/* Estilo para ícones */
+.input-group-text {
+  background-color: #4400ff; /* Cor de fundo dos ícones */
+  border: none;
+  border-radius: 20px 0 0 20px; /* Borda arredondada apenas no lado esquerdo */
+  color: #333; /* Cor dos ícones */
+}
+
+/* Estilo para botões */
+button[type="submit"] {
+  background-color: #4400ff; /* Cor de fundo */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px; /* Borda arredondada */
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #1a237e; /* Mudança de cor ao passar o mouse */
+}
